@@ -34,7 +34,7 @@ inequality_clean <- inequality_raw %>%
 
 world_data_joined <- world_map_clean %>%
   left_join(
-    inequality_clean, # (我们可以连接整个表)
+    inequality_clean, #
     by = "iso_code"
   )
 
